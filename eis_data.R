@@ -13,16 +13,24 @@ print(colnames(dados))
 # Remove by column name
 dados <- dados[, -which(names(dados) %in% c("Column1", "Column2", "Region", "RegionName"))]  # Removes columns 'Age' and 'Height'
 
+
+# dados <- dados %>%
+#   mutate(Indicator = str_remove(Indicator, "^[0-9\\.]+\\s+"))
+
+dados <- dados %>%
+  mutate(
+    Numbers = str_extract(Indicator, "^[0-9\\.]+"),
+    Indicator = str_remove(Indicator, "^[0-9\\.]+\\s+")
+  )
+
+View(dados)
+
 # Use pivot_wider to reshape the data
 wide_data <- dados %>%
   pivot_wider(
     names_from = Indicator,  # Names for new columns come from the 'Innovation' column
     values_from = Value       # Values for these columns come from the 'Value' column
   )
-
-# dados <- dados %>%
-#   mutate(Indicator = str_remove(Indicator, "^[0-9\\.]+\\s+"))
-
 
 View(wide_data)
 
