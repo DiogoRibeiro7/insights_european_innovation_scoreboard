@@ -44,3 +44,4 @@ View(wide_data)
 # Optional: Write the combined data to a new Excel file
 write.xlsx(wide_data, "EIS_Data_transformed.xlsx")
 
+print(colnames(wide_data))
