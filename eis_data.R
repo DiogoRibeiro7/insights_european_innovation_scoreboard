@@ -16,14 +16,7 @@ dados <- dados[, -which(names(dados) %in% c("Column1", "Column2", "Region", "Reg
 # dados <- dados %>%
 #   mutate(Indicator = str_remove(Indicator, "^[0-9\\.]+\\s+"))
 
-# dados <- dados %>%
-#   mutate(
-#     Numbers = str_extract(Indicator, "^[0-9\\.]+"),
-#     Indicator = str_remove(Indicator, "^[0-9\\.]+\\s+")
-#   )
 
-View(dados)
-print(colnames(dados))
 # # Use pivot_wider to reshape the data
 # wide_data <- dados %>%
 #   pivot_wider(
@@ -45,3 +38,22 @@ View(wide_data)
 write.xlsx(wide_data, "EIS_Data_transformed.xlsx")
 
 print(colnames(wide_data))
+
+dados <- dados %>%
+  mutate(
+    Numbers = str_extract(Indicator, "^[0-9\\.]+"),
+    Indicator = str_remove(Indicator, "^[0-9\\.]+\\s+")
+  )
+
+View(dados)
+print(colnames(dados))
+
+# Adding a new column with the count of digits
+dados <- dados %>%
+  mutate(DigitCount = str_length(gsub("[^0-9]", "", Numbers)))
+
+
+View(dados)
+
+# Optional: Write the combined data to a new Excel file
+write.xlsx(dados, "EIS_Data_Stratified.xlsx")
