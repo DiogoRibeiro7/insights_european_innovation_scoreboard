@@ -3,7 +3,7 @@ library(dplyr)
 library(writexl)
 
 data1 <- read_excel("EIS_DATA.xlsx", sheet = "EIS-INN")
-data2 <- read_excel("EIS_DATA.xlsx", sheet = "EIS_STR")
+data2 <- read_excel("EIS_DATA.xlsx", sheet = "EIS-STR")
 
 combined_data <- bind_rows(data1, data2)
 
