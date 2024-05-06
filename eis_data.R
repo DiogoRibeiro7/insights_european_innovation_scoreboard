@@ -57,3 +57,19 @@ View(dados)
 
 # Optional: Write the combined data to a new Excel file
 write.xlsx(dados, "EIS_Data_Stratified.xlsx")
+
+
+# Use pivot_wider to reshape the data
+wide_data <- dados %>%
+  pivot_wider(
+    names_from = Indicator,  # Names for new columns come from the 'Indicator' column
+    values_from = Value,     # Values for these columns come from the 'Value' column
+    id_cols = c(Year, Country, CountryName, Perf, Level, Zone)  # Identify rows by 'Country' and 'Year'
+  )
+
+wide_data <- wide_data[wide_data$column_name == 3, ]
+
+View(wide_data)
+
+# Optional: Write the combined data to a new Excel file
+write.xlsx(wide_data, "EIS_Data_restricted.xlsx")
