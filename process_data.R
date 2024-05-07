@@ -393,9 +393,9 @@ years <- unique(dados$Year)
 
 print(years)
 
-# Define score names to be used as row names
-score_names <- c("Customs Score", "Infrastructure Score", "International Shipments Score",
-                 "Logistics Competence and Quality Score", "Timeliness Score", "Tracking and Tracing Score")
+columns_of_interest <- names(dados)[!names(dados) %in% "Year"]
+
+print(columns_of_interest)
 
 
 # Initialize an empty list to store data frames for each year
@@ -413,7 +413,7 @@ for (year in years) {
   df <- df[-1]
 
   # Add the scores as a new column at the start of the dataframe
-  df <- tibble(Score = score_names, Value = as.numeric(df[[1]]))
+  df <- tibble(Score = columns_of_interest, Value = as.numeric(df[[1]]))
 
   # Store the dataframe with a named list
   data_frames[[as.character(year)]] <- df
