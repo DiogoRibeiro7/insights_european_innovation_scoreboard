@@ -49,6 +49,31 @@ View(dados)
 print(colnames(dados))
 str(dados)
 
+# Get the data type of each column in the dataframe
+column_types <- sapply(dados, class)
+print(column_types)
+
+# Loop through each column in the dataframe
+for (column_name in names(dados)) {
+  # Check if the column is a factor
+  if (is.factor(dados[[column_name]])) {
+    # Convert factor to numeric by first converting to character
+    dados[[column_name]] <- as.numeric(as.character(dados[[column_name]]))
+  } else if (is.character(dados[[column_name]])) {
+    # Try converting from character to numeric directly
+    # This will introduce NAs where conversion is not possible
+    temp <- as.numeric(dados[[column_name]])
+    if (all(is.na(temp)) && any(dados[[column_name]] != "")) {
+      message(paste("Conversion failed for column:", column_name, "due to non-numeric values."))
+    } else {
+      dados[[column_name]] <- temp
+    }
+  }
+}
+
+column_types <- sapply(dados, class)
+print(column_types)
+
 # Exclude non-score columns
 columns_to_remove <- c("Country", "CountryName", "Perf", "Level", "Zone")
 # Safely exclude non-score columns
