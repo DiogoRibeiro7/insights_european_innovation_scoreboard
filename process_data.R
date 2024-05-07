@@ -14,6 +14,8 @@ library(cluster)
 library(psych)
 library(readr)
 library(purrr)
+library(MASS)
+library(reticulate)
 
 # Set the number of digits to display (setting to 6 or more is usually sufficient to ensure at least 4 decimal places)
 options(digits=6)
@@ -22,7 +24,6 @@ options(digits=6)
 # Import the full dataset
 dados_with_na <- read_excel("EIS_Data_restricted.xlsx")
 
-View(dados_with_na)
 
 # Summarize the number of NA values in each column
 sum_na_per_column <- sapply(dados_with_na, function(x) sum(is.na(x)))
@@ -44,7 +45,6 @@ dados_with_na <- dados_with_na %>%
 
 dados <- na.omit(dados_with_na)
 
-View(dados)
 
 print(colnames(dados))
 str(dados)
@@ -79,6 +79,25 @@ columns_to_remove <- c("Country", "CountryName", "Perf", "Level", "Zone")
 # Safely exclude non-score columns
 columns_to_keep <- setdiff(names(dados), columns_to_remove)
 dados <- dados[, columns_to_keep, drop = FALSE]
+
+# Checking variance of each column
+variances <- sapply(dados, var, na.rm = TRUE)
+print(variances)
+# Identify columns with zero variance
+zero_variance_cols <- names(variances[variances == 0])
+print(zero_variance_cols)
+
+# Assuming your data is all numeric by now
+cor_matrix <- cor(dados, use = "complete.obs")  # Excludes NA values for calculation
+print(cor_matrix)
+
+
+# Using pseudoinverse instead of solve
+mult.norm <- function(mydata) {
+  s <- cov(mydata)
+  # Use generalized inverse if regular inverse fails
+  ginv(s)
+}
 
 calculate_reliability <- function(data) {
   # Calculate Cronbach's Alpha for the full set of items
@@ -153,7 +172,7 @@ create_scree_plot <- function(pca_result, year) {
                         marker = list(size = 10, color = 'blue'), line = list(color = 'blue')) %>%
     layout(title = "Scree Plot", xaxis = list(title = "Principal Component"),
            yaxis = list(title = "Percentage of Variance Explained"))
-  save_image(scree_plot, file = paste("data/scree_plot_", year, ".png", sep=""))
+  # save_image(scree_plot, file = paste("data/scree_plot_", year, ".png", sep=""))
 }
 
 plot_pca_biplot <- function(pca_result) {
@@ -206,10 +225,10 @@ create_histogram <- function(data, column_name, nbinsx = 30, color = 'rgba(100, 
 
 process_data_for_year <- function(data, year) {
   # Filter data for the given year
+  print(year)
   year_data <- data[data$Year == year,]
   colnames(year_data) <- trimws(colnames(year_data))
-  columns_of_interest <- c("Customs Score", "Infrastructure Score", "International Shipments Score",
-                           "Logistics Competence and Quality Score", "Timeliness Score", "Tracking and Tracing Score")
+  columns_of_interest <- as.list(year_data[, !names(year_data) %in% "Year", drop = FALSE])
 
   # for (column_name in columns_of_interest) {
   #   histogram_plot <- create_histogram(year_data, column_name, nbinsx = 20, color = 'rgba(100, 150, 250, 0.8)', title = "Histogram")
@@ -237,11 +256,11 @@ process_data_for_year <- function(data, year) {
   mult_etest_output_path <- paste("data/multi_etest_data_", year, ".txt", sep="")
   writeLines(capture.output(multi_etest_data), mult_etest_output_path)
 
-  # Correlation and visualization using Plotly
-  res <- cor(mydata)
-  fig <- plot_ly(z = res, x = colnames(res), y = colnames(res), type = "heatmap", colors = colorRamp(c("blue", "white", "red")))
-  fig <- fig %>% layout(title = "Correlation Matrix", xaxis = list(tickangle = 45))
-  save_image(fig, file = paste("data/cor_", year, ".png", sep=""))
+  # # Correlation and visualization using Plotly
+  # res <- cor(mydata)
+  # fig <- plot_ly(z = res, x = colnames(res), y = colnames(res), type = "heatmap", colors = colorRamp(c("blue", "white", "red")))
+  # fig <- fig %>% layout(title = "Correlation Matrix", xaxis = list(tickangle = 45))
+  # save_image(fig, file = paste("data/cor_", year, ".png", sep=""))
 
 
   # Homoscedasticity checks
@@ -295,7 +314,7 @@ process_data_for_year <- function(data, year) {
 
   # Plot PCA biplot using plotly
   pca_fig <- plot_pca_biplot(fit)
-  save_image(pca_fig, file = paste("data/plot_pca_", year, ".png", sep=""))
+  # save_image(pca_fig, file = paste("data/plot_pca_", year, ".png", sep=""))
 
   heatmap_fig <- create_loadings_heatmap(fit)
   cumulative_variance_fig <- create_cumulative_explained_variance_plot(fit, year)
@@ -340,11 +359,12 @@ process_data_for_year <- function(data, year) {
 
   # Assuming mydata is already loaded and prepared
   # Define the columns of interest for the reliability analysis
-  columns_of_interest <- c("Customs Score", "Infrastructure Score", "International Shipments Score",
-                           "Logistics Competence and Quality Score", "Timeliness Score", "Tracking and Tracing Score")
+  columns_of_interest <- names(mydata)[!names(mydata) %in% "Year"]
+
+  mydata <- mydata[, columns_of_interest]
 
   # Subset mydata for the reliability analysis
-  survey_data <- mydata[columns_of_interest]
+  survey_data <- mydata
 
   # Calculate reliability statistics
   reliability_results <- calculate_reliability(survey_data)
@@ -370,6 +390,8 @@ results <- lapply(unique_years, function(year) {
 
 base_path <- "data/"
 years <- unique(dados$Year)
+
+print(years)
 
 # Define score names to be used as row names
 score_names <- c("Customs Score", "Infrastructure Score", "International Shipments Score",

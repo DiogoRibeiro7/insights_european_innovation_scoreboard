@@ -1,0 +1,340 @@
+
+Loadings:
+                                                            Comp.1 Comp.2 Comp.3 Comp.4
+New doctorate graduates                                      0.225         0.227       
+Population with tertiary education                           0.158 -0.102 -0.306       
+Population involved in lifelong learning                     0.225 -0.110         0.168
+International scientific co-publications                     0.238        -0.197       
+Scientific publications among the top 10% most cited         0.246                     
+Foreign doctorate students as a % of all doctorate students  0.209 -0.215              
+Broadband penetration                                        0.140 -0.252         0.238
+Individuals with above basic overall digital skills          0.205 -0.114              
+R&D expenditure in the public sector                         0.191  0.173  0.222  0.199
+Venture capital expenditures                                 0.189                0.134
+Direct and indirect government support of business R&D       0.104 -0.118  0.220 -0.252
+R&D expenditure in the business sector                       0.196         0.329       
+Non-R&D innovation expenditures                                     0.405              
+Innovation expenditures per person employed                  0.205  0.102  0.262       
+Enterprises providing ICT training                           0.208                     
+Employed ICT specialists                                     0.227 -0.110              
+SMEs introducing product innovations                         0.149  0.354 -0.107       
+SMEs introducing business process innovations                0.183  0.323        -0.133
+Innovative SMEs collaborating with others                    0.185  0.262 -0.122 -0.146
+Public-private co-publications                               0.238                     
+Job-to-job mobility of HRST                                  0.156        -0.188  0.270
+PCT patent applications                                      0.229         0.227       
+Trademark applications                                                    -0.327       
+Design applications                                          0.132                0.153
+Employment in knowledge-intensive activities                 0.208 -0.131 -0.199 -0.245
+Employment in innovative enterprises                         0.174  0.359              
+Exports of medium and high technology products                     -0.180  0.260 -0.255
+Knowledge-intensive services exports                         0.185               -0.118
+Sales of new-to-market and new-to-firm innovations                  0.274  0.120 -0.340
+Resource productivity                                        0.118 -0.166        -0.381
+Air emissions by fine particulates                           0.142 -0.150  0.176 -0.227
+                                                            Comp.5 Comp.6 Comp.7 Comp.8
+New doctorate graduates                                             0.109              
+Population with tertiary education                           0.131         0.289 -0.132
+Population involved in lifelong learning                                  -0.248       
+International scientific co-publications                            0.131 -0.101       
+Scientific publications among the top 10% most cited                              0.282
+Foreign doctorate students as a % of all doctorate students                0.161  0.128
+Broadband penetration                                                                  
+Individuals with above basic overall digital skills          0.136 -0.161        -0.259
+R&D expenditure in the public sector                               -0.222              
+Venture capital expenditures                                               0.334 -0.142
+Direct and indirect government support of business R&D       0.206 -0.404              
+R&D expenditure in the business sector                             -0.103 -0.211       
+Non-R&D innovation expenditures                             -0.194  0.118  0.287 -0.298
+Innovation expenditures per person employed                         0.202  0.185       
+Enterprises providing ICT training                           0.100  0.112 -0.297 -0.426
+Employed ICT specialists                                            0.190 -0.133 -0.150
+SMEs introducing product innovations                                                   
+SMEs introducing business process innovations                                          
+Innovative SMEs collaborating with others                    0.139  0.103              
+Public-private co-publications                                            -0.172  0.138
+Job-to-job mobility of HRST                                 -0.193 -0.376  0.207 -0.177
+PCT patent applications                                                   -0.112       
+Trademark applications                                      -0.517        -0.157       
+Design applications                                         -0.519 -0.114 -0.149  0.256
+Employment in knowledge-intensive activities                        0.171              
+Employment in innovative enterprises                                                   
+Exports of medium and high technology products              -0.346  0.285        -0.305
+Knowledge-intensive services exports                         0.124  0.394  0.120  0.398
+Sales of new-to-market and new-to-firm innovations                 -0.200 -0.299       
+Resource productivity                                              -0.278  0.337  0.135
+Air emissions by fine particulates                          -0.235         0.134 -0.261
+                                                            Comp.9 Comp.10 Comp.11 Comp.12
+New doctorate graduates                                                     0.139         
+Population with tertiary education                                                  0.255 
+Population involved in lifelong learning                     0.142  0.115   0.113  -0.142 
+International scientific co-publications                    -0.141 -0.119           0.145 
+Scientific publications among the top 10% most cited                0.119                 
+Foreign doctorate students as a % of all doctorate students -0.148          0.224  -0.220 
+Broadband penetration                                               0.509  -0.112   0.475 
+Individuals with above basic overall digital skills          0.407 -0.165          -0.267 
+R&D expenditure in the public sector                               -0.128                 
+Venture capital expenditures                                               -0.609  -0.270 
+Direct and indirect government support of business R&D      -0.481                 -0.175 
+R&D expenditure in the business sector                      -0.223         -0.143         
+Non-R&D innovation expenditures                                     0.189   0.132  -0.216 
+Innovation expenditures per person employed                         0.184   0.140         
+Enterprises providing ICT training                                          0.120   0.175 
+Employed ICT specialists                                            0.176   0.166  -0.368 
+SMEs introducing product innovations                        -0.157          0.267         
+SMEs introducing business process innovations                      -0.121           0.184 
+Innovative SMEs collaborating with others                   -0.106         -0.282         
+Public-private co-publications                                     -0.335           0.139 
+Job-to-job mobility of HRST                                 -0.175                        
+PCT patent applications                                                            -0.101 
+Trademark applications                                              0.174  -0.129         
+Design applications                                                -0.105          -0.149 
+Employment in knowledge-intensive activities                                0.225         
+Employment in innovative enterprises                                                      
+Exports of medium and high technology products              -0.286  0.106  -0.123         
+Knowledge-intensive services exports                                       -0.217         
+Sales of new-to-market and new-to-firm innovations           0.357  0.383  -0.167         
+Resource productivity                                        0.305          0.173         
+Air emissions by fine particulates                           0.222 -0.421  -0.162   0.326 
+                                                            Comp.13 Comp.14 Comp.15
+New doctorate graduates                                      0.317   0.275   0.149 
+Population with tertiary education                           0.270   0.474         
+Population involved in lifelong learning                            -0.271  -0.134 
+International scientific co-publications                                    -0.152 
+Scientific publications among the top 10% most cited                -0.116  -0.110 
+Foreign doctorate students as a % of all doctorate students  0.247  -0.181   0.126 
+Broadband penetration                                       -0.213  -0.219         
+Individuals with above basic overall digital skills         -0.126          -0.182 
+R&D expenditure in the public sector                         0.153   0.248   0.259 
+Venture capital expenditures                                 0.162  -0.151         
+Direct and indirect government support of business R&D      -0.165          -0.360 
+R&D expenditure in the business sector                               0.129   0.128 
+Non-R&D innovation expenditures                             -0.133   0.160         
+Innovation expenditures per person employed                 -0.184   0.147  -0.118 
+Enterprises providing ICT training                          -0.386   0.122   0.181 
+Employed ICT specialists                                     0.141                 
+SMEs introducing product innovations                                -0.348   0.182 
+SMEs introducing business process innovations                       -0.106         
+Innovative SMEs collaborating with others                                   -0.336 
+Public-private co-publications                               0.116          -0.104 
+Job-to-job mobility of HRST                                                  0.226 
+PCT patent applications                                                      0.318 
+Trademark applications                                       0.149                 
+Design applications                                         -0.256   0.335  -0.186 
+Employment in knowledge-intensive activities                                       
+Employment in innovative enterprises                                -0.201         
+Exports of medium and high technology products               0.107  -0.150   0.115 
+Knowledge-intensive services exports                        -0.338   0.103   0.211 
+Sales of new-to-market and new-to-firm innovations           0.293                 
+Resource productivity                                       -0.130           0.131 
+Air emissions by fine particulates                                  -0.110  -0.128 
+                                                            Comp.16 Comp.17 Comp.18
+New doctorate graduates                                              0.110   0.201 
+Population with tertiary education                          -0.176  -0.197   0.104 
+Population involved in lifelong learning                    -0.156  -0.137         
+International scientific co-publications                     0.301           0.104 
+Scientific publications among the top 10% most cited         0.226                 
+Foreign doctorate students as a % of all doctorate students  0.184                 
+Broadband penetration                                                0.165   0.121 
+Individuals with above basic overall digital skills                 -0.350   0.242 
+R&D expenditure in the public sector                         0.115                 
+Venture capital expenditures                                         0.261   0.265 
+Direct and indirect government support of business R&D                             
+R&D expenditure in the business sector                      -0.205          -0.209 
+Non-R&D innovation expenditures                              0.119                 
+Innovation expenditures per person employed                 -0.175           0.122 
+Enterprises providing ICT training                           0.300   0.200         
+Employed ICT specialists                                    -0.114   0.343  -0.257 
+SMEs introducing product innovations                        -0.147  -0.175   0.249 
+SMEs introducing business process innovations                        0.186   0.224 
+Innovative SMEs collaborating with others                                   -0.324 
+Public-private co-publications                               0.214                 
+Job-to-job mobility of HRST                                  0.216  -0.324  -0.312 
+PCT patent applications                                     -0.315  -0.184  -0.105 
+Trademark applications                                                      -0.182 
+Design applications                                                          0.341 
+Employment in knowledge-intensive activities                -0.186                 
+Employment in innovative enterprises                        -0.155   0.146         
+Exports of medium and high technology products               0.315  -0.177   0.183 
+Knowledge-intensive services exports                                -0.304  -0.155 
+Sales of new-to-market and new-to-firm innovations           0.235  -0.190         
+Resource productivity                                        0.156   0.343  -0.194 
+Air emissions by fine particulates                          -0.243          -0.123 
+                                                            Comp.19 Comp.20 Comp.21
+New doctorate graduates                                              0.460         
+Population with tertiary education                          -0.194          -0.248 
+Population involved in lifelong learning                    -0.445   0.180         
+International scientific co-publications                                     0.116 
+Scientific publications among the top 10% most cited        -0.286  -0.286   0.168 
+Foreign doctorate students as a % of all doctorate students  0.478  -0.268  -0.184 
+Broadband penetration                                        0.173                 
+Individuals with above basic overall digital skills          0.261          -0.159 
+R&D expenditure in the public sector                                         0.137 
+Venture capital expenditures                                                 0.138 
+Direct and indirect government support of business R&D       0.133   0.208   0.228 
+R&D expenditure in the business sector                              -0.190         
+Non-R&D innovation expenditures                                     -0.116   0.275 
+Innovation expenditures per person employed                 -0.159  -0.349         
+Enterprises providing ICT training                                                 
+Employed ICT specialists                                                           
+SMEs introducing product innovations                                 0.207   0.306 
+SMEs introducing business process innovations                0.133  -0.159  -0.277 
+Innovative SMEs collaborating with others                            0.156  -0.281 
+Public-private co-publications                              -0.134  -0.259         
+Job-to-job mobility of HRST                                 -0.134                 
+PCT patent applications                                                     -0.192 
+Trademark applications                                       0.163   0.181   0.139 
+Design applications                                                                
+Employment in knowledge-intensive activities                 0.117  -0.119   0.290 
+Employment in innovative enterprises                                 0.106  -0.368 
+Exports of medium and high technology products              -0.220          -0.247 
+Knowledge-intensive services exports                         0.183   0.223         
+Sales of new-to-market and new-to-firm innovations                                 
+Resource productivity                                       -0.262   0.225         
+Air emissions by fine particulates                           0.118           0.240 
+                                                            Comp.22 Comp.23 Comp.24
+New doctorate graduates                                      0.273   0.135   0.331 
+Population with tertiary education                          -0.119          -0.112 
+Population involved in lifelong learning                    -0.173  -0.274         
+International scientific co-publications                    -0.247                 
+Scientific publications among the top 10% most cited         0.392                 
+Foreign doctorate students as a % of all doctorate students                  0.152 
+Broadband penetration                                               -0.125         
+Individuals with above basic overall digital skills                  0.144         
+R&D expenditure in the public sector                                -0.459  -0.244 
+Venture capital expenditures                                -0.168   0.173         
+Direct and indirect government support of business R&D      -0.153  -0.133   0.112 
+R&D expenditure in the business sector                               0.270  -0.382 
+Non-R&D innovation expenditures                             -0.153  -0.203   0.253 
+Innovation expenditures per person employed                 -0.128   0.237         
+Enterprises providing ICT training                                   0.222         
+Employed ICT specialists                                     0.255  -0.207         
+SMEs introducing product innovations                         0.178   0.215         
+SMEs introducing business process innovations                       -0.103  -0.179 
+Innovative SMEs collaborating with others                    0.362                 
+Public-private co-publications                              -0.226           0.290 
+Job-to-job mobility of HRST                                  0.211                 
+PCT patent applications                                     -0.204           0.432 
+Trademark applications                                      -0.201   0.201         
+Design applications                                          0.156                 
+Employment in knowledge-intensive activities                                -0.266 
+Employment in innovative enterprises                        -0.173  -0.207         
+Exports of medium and high technology products                      -0.117  -0.115 
+Knowledge-intensive services exports                        -0.108  -0.238  -0.151 
+Sales of new-to-market and new-to-firm innovations          -0.112                 
+Resource productivity                                       -0.161   0.143         
+Air emissions by fine particulates                           0.145  -0.225   0.142 
+                                                            Comp.25 Comp.26 Comp.27
+New doctorate graduates                                              0.132   0.102 
+Population with tertiary education                                  -0.245         
+Population involved in lifelong learning                             0.368  -0.219 
+International scientific co-publications                    -0.189  -0.171         
+Scientific publications among the top 10% most cited        -0.403  -0.176         
+Foreign doctorate students as a % of all doctorate students          0.221  -0.239 
+Broadband penetration                                                        0.238 
+Individuals with above basic overall digital skills         -0.156           0.392 
+R&D expenditure in the public sector                        -0.249   0.237         
+Venture capital expenditures                                 0.145          -0.144 
+Direct and indirect government support of business R&D              -0.100         
+R&D expenditure in the business sector                                       0.292 
+Non-R&D innovation expenditures                                              0.168 
+Innovation expenditures per person employed                          0.368         
+Enterprises providing ICT training                                          -0.378 
+Employed ICT specialists                                            -0.356   0.139 
+SMEs introducing product innovations                                -0.146         
+SMEs introducing business process innovations               -0.230                 
+Innovative SMEs collaborating with others                            0.276         
+Public-private co-publications                               0.284           0.412 
+Job-to-job mobility of HRST                                  0.229                 
+PCT patent applications                                     -0.254  -0.328  -0.174 
+Trademark applications                                      -0.384   0.195         
+Design applications                                          0.329  -0.126  -0.128 
+Employment in knowledge-intensive activities                                -0.115 
+Employment in innovative enterprises                         0.131  -0.116         
+Exports of medium and high technology products              -0.120           0.161 
+Knowledge-intensive services exports                         0.101                 
+Sales of new-to-market and new-to-firm innovations           0.290  -0.165  -0.130 
+Resource productivity                                                        0.118 
+Air emissions by fine particulates                                          -0.113 
+                                                            Comp.28 Comp.29 Comp.30
+New doctorate graduates                                      0.310   0.136         
+Population with tertiary education                                  -0.237   0.125 
+Population involved in lifelong learning                     0.163  -0.198         
+International scientific co-publications                             0.101  -0.706 
+Scientific publications among the top 10% most cited         0.272           0.136 
+Foreign doctorate students as a % of all doctorate students         -0.313         
+Broadband penetration                                       -0.121                 
+Individuals with above basic overall digital skills                                
+R&D expenditure in the public sector                        -0.296   0.129         
+Venture capital expenditures                                                 0.118 
+Direct and indirect government support of business R&D                       0.129 
+R&D expenditure in the business sector                       0.289  -0.341  -0.203 
+Non-R&D innovation expenditures                              0.184  -0.302         
+Innovation expenditures per person employed                 -0.292   0.249  -0.155 
+Enterprises providing ICT training                                  -0.124   0.183 
+Employed ICT specialists                                    -0.278                 
+SMEs introducing product innovations                        -0.362  -0.232         
+SMEs introducing business process innovations                                0.168 
+Innovative SMEs collaborating with others                   -0.180                 
+Public-private co-publications                                               0.403 
+Job-to-job mobility of HRST                                          0.258  -0.111 
+PCT patent applications                                     -0.102                 
+Trademark applications                                      -0.100           0.151 
+Design applications                                                                
+Employment in knowledge-intensive activities                 0.204   0.480   0.159 
+Employment in innovative enterprises                         0.364   0.199         
+Exports of medium and high technology products                               0.117 
+Knowledge-intensive services exports                                -0.126         
+Sales of new-to-market and new-to-firm innovations                                 
+Resource productivity                                       -0.114                 
+Air emissions by fine particulates                                  -0.113  -0.122 
+                                                            Comp.31 Comp.32
+New doctorate graduates                                              0.152 
+Population with tertiary education                                         
+Population involved in lifelong learning                             0.169 
+International scientific co-publications                    -0.119         
+Scientific publications among the top 10% most cited         0.189  -0.206 
+Foreign doctorate students as a % of all doctorate students                
+Broadband penetration                                       -0.214         
+Individuals with above basic overall digital skills                        
+R&D expenditure in the public sector                                -0.261 
+Venture capital expenditures                                               
+Direct and indirect government support of business R&D       0.123   0.100 
+R&D expenditure in the business sector                                     
+Non-R&D innovation expenditures                             -0.245         
+Innovation expenditures per person employed                  0.291         
+Enterprises providing ICT training                           0.150         
+Employed ICT specialists                                     0.227   0.189 
+SMEs introducing product innovations                                -0.131 
+SMEs introducing business process innovations               -0.118   0.632 
+Innovative SMEs collaborating with others                   -0.307  -0.187 
+Public-private co-publications                                             
+Job-to-job mobility of HRST                                          0.245 
+PCT patent applications                                     -0.310         
+Trademark applications                                       0.250         
+Design applications                                         -0.121  -0.102 
+Employment in knowledge-intensive activities                -0.432  -0.129 
+Employment in innovative enterprises                         0.313  -0.431 
+Exports of medium and high technology products                             
+Knowledge-intensive services exports                         0.141   0.152 
+Sales of new-to-market and new-to-firm innovations                         
+Resource productivity                                       -0.134         
+Air emissions by fine particulates                           0.192         
+ [ reached getOption("max.print") -- omitted 1 row ]
+
+               Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7 Comp.8 Comp.9 Comp.10
+SS loadings     1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000   1.000
+Proportion Var  0.031  0.031  0.031  0.031  0.031  0.031  0.031  0.031  0.031   0.031
+Cumulative Var  0.031  0.062  0.094  0.125  0.156  0.188  0.219  0.250  0.281   0.312
+               Comp.11 Comp.12 Comp.13 Comp.14 Comp.15 Comp.16 Comp.17 Comp.18 Comp.19
+SS loadings      1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000
+Proportion Var   0.031   0.031   0.031   0.031   0.031   0.031   0.031   0.031   0.031
+Cumulative Var   0.344   0.375   0.406   0.438   0.469   0.500   0.531   0.562   0.594
+               Comp.20 Comp.21 Comp.22 Comp.23 Comp.24 Comp.25 Comp.26 Comp.27 Comp.28
+SS loadings      1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000   1.000
+Proportion Var   0.031   0.031   0.031   0.031   0.031   0.031   0.031   0.031   0.031
+Cumulative Var   0.625   0.656   0.688   0.719   0.750   0.781   0.812   0.844   0.875
+               Comp.29 Comp.30 Comp.31 Comp.32
+SS loadings      1.000   1.000   1.000   1.000
+Proportion Var   0.031   0.031   0.031   0.031
+Cumulative Var   0.906   0.938   0.969   1.000

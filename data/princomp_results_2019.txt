@@ -1,0 +1,25 @@
+Importance of components:
+                         Comp.1   Comp.2    Comp.3    Comp.4    Comp.5    Comp.6    Comp.7
+Standard deviation     3.738865 1.895512 1.6537491 1.5490812 1.2575227 1.1258828 1.0006053
+Proportion of Variance 0.436847 0.112280 0.0854652 0.0749891 0.0494176 0.0396129 0.0312878
+Cumulative Proportion  0.436847 0.549127 0.6345925 0.7095817 0.7589993 0.7986122 0.8299000
+                          Comp.8   Comp.9  Comp.10   Comp.11   Comp.12   Comp.13
+Standard deviation     0.9284926 0.870751 0.845279 0.7510953 0.7360742 0.6347877
+Proportion of Variance 0.0269406 0.023694 0.022328 0.0176295 0.0169314 0.0125924
+Cumulative Proportion  0.8568406 0.880535 0.902863 0.9204921 0.9374235 0.9500159
+                          Comp.14    Comp.15    Comp.16    Comp.17    Comp.18    Comp.19
+Standard deviation     0.54161290 0.51102782 0.46448014 0.45717723 0.40737574 0.38289101
+Proportion of Variance 0.00916702 0.00816092 0.00674193 0.00653159 0.00518609 0.00458142
+Cumulative Proportion  0.95918287 0.96734379 0.97408572 0.98061732 0.98580341 0.99038483
+                          Comp.20    Comp.21    Comp.22    Comp.23     Comp.24     Comp.25
+Standard deviation     0.30694555 0.26954222 0.23170399 0.17993663 0.163751689 0.105307292
+Proportion of Variance 0.00294424 0.00227041 0.00167771 0.00101179 0.000837957 0.000346551
+Cumulative Proportion  0.99332907 0.99559948 0.99727719 0.99828897 0.999126930 0.999473481
+                          Comp.26     Comp.27     Comp.28     Comp.29     Comp.30 Comp.31
+Standard deviation     0.08901782 0.071626738 5.20533e-02 3.29319e-02 1.64782e-08       0
+Proportion of Variance 0.00024763 0.000160325 8.46732e-05 3.38909e-05 8.48532e-18       0
+Cumulative Proportion  0.99972111 0.999881436 9.99966e-01 1.00000e+00 1.00000e+00       1
+                       Comp.32
+Standard deviation           0
+Proportion of Variance       0
+Cumulative Proportion        1

@@ -1,0 +1,64 @@
+                                    New doctorate graduates 
+                                                    40.9459 
+                         Population with tertiary education 
+                                                    57.3627 
+                   Population involved in lifelong learning 
+                                                    80.3497 
+                   International scientific co-publications 
+                                                    97.4366 
+       Scientific publications among the top 10% most cited 
+                                                    38.6556 
+Foreign doctorate students as a % of all doctorate students 
+                                                    87.0357 
+                                      Broadband penetration 
+                                                    44.6979 
+        Individuals with above basic overall digital skills 
+                                                    45.1414 
+                       R&D expenditure in the public sector 
+                                                    39.7987 
+                               Venture capital expenditures 
+                                                    46.0980 
+     Direct and indirect government support of business R&D 
+                                                    60.4239 
+                     R&D expenditure in the business sector 
+                                                    49.1784 
+                            Non-R&D innovation expenditures 
+                                                    35.0475 
+                Innovation expenditures per person employed 
+                                                    47.5323 
+                         Enterprises providing ICT training 
+                                                    52.5981 
+                                   Employed ICT specialists 
+                                                    44.7398 
+                       SMEs introducing product innovations 
+                                                    56.1115 
+              SMEs introducing business process innovations 
+                                                    62.5333 
+                  Innovative SMEs collaborating with others 
+                                                    79.4443 
+                             Public-private co-publications 
+                                                   157.2756 
+                                Job-to-job mobility of HRST 
+                                                    66.0059 
+                                    PCT patent applications 
+                                                    37.3419 
+                                     Trademark applications 
+                                                    47.8406 
+                                        Design applications 
+                                                    45.3580 
+               Employment in knowledge-intensive activities 
+                                                    44.4139 
+                       Employment in innovative enterprises 
+                                                    52.3864 
+             Exports of medium and high technology products 
+                                                    27.2213 
+                       Knowledge-intensive services exports 
+                                                    35.0332 
+         Sales of new-to-market and new-to-firm innovations 
+                                                    35.5949 
+                                      Resource productivity 
+                                                    62.3716 
+                         Air emissions by fine particulates 
+                                                    39.6957 
+                           Environment-related technologies 
+                                                    38.6859 

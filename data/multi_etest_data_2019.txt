@@ -1,0 +1,6 @@
+
+	Energy test of multivariate normality: estimated parameters
+
+data:  x, sample size 60, dimension 32, replicates 100
+E-statistic = NA, p-value = NA
+
