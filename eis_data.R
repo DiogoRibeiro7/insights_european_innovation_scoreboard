@@ -59,6 +59,8 @@ View(dados)
 write.xlsx(dados, "EIS_Data_Stratified.xlsx")
 
 
+dados <- dados[dados$DigitCount == 3, ]
+
 # Use pivot_wider to reshape the data
 wide_data <- dados %>%
   pivot_wider(
@@ -67,9 +69,10 @@ wide_data <- dados %>%
     id_cols = c(Year, Country, CountryName, Perf, Level, Zone)  # Identify rows by 'Country' and 'Year'
   )
 
-wide_data <- wide_data[wide_data$column_name == 3, ]
+
 
 View(wide_data)
 
 # Optional: Write the combined data to a new Excel file
 write.xlsx(wide_data, "EIS_Data_restricted.xlsx")
+
