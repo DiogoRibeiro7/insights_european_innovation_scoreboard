@@ -68,7 +68,60 @@ print(zero_variance_cols)
 cor_matrix <- cor(dados, use = "complete.obs")  # Excludes NA values for calculation
 print(cor_matrix)
 
+# Before implementing Probabilistic PCA (PPCA) in R, it's important to verify certain
+# assumptions and conditions to ensure that your analysis yields reliable and meaningful
+# results. Here are the key assumptions for PPCA and how you can check them in R:
+unique_years <- unique(dados$Year)
+for (year in unique_years){
+  year_data <- dados[dados$Year == year,]
+  # Close the current graphics device
+  dev.off()
+  # Reduce the size of the margins
+  par(mar = c(2, 2, 2, 2))  # Bottom, Left, Top, Right
+  pairs(year_data, main = "Scatterplot Matrix of Data")
+}
 
+check_assumptions <- function(data) {
+  print("Checking for outliers...")
+
+  # Identify numeric columns more reliably
+  numeric_columns <- sapply(data, is.numeric)
+
+  # Handle no numeric columns found
+  if (!any(numeric_columns)) {
+    print("No numeric columns for outlier detection.")
+  } else {
+    # Adjusting the plotting layout to fit the number of numeric columns
+    par(mfrow = c(1, sum(numeric_columns)))
+
+    # Loop through each numeric column
+    for (i in which(numeric_columns)) {
+      boxplot(data[[i]], main = names(data)[i])  # Correctly reference each column by its index
+    }
+
+    # Reset the plotting layout
+    par(mfrow = c(1, 1))
+  }
+
+  # Check normality for numeric columns only
+  print("Checking normality...")
+  if (any(numeric_columns)) {
+    apply(data[, numeric_columns, drop = FALSE], 2, function(x) {
+      qqnorm(x)
+      qqline(x, col = "red")
+    })
+  } else {
+    print("No numeric columns for normality check.")
+  }
+
+  # Missing data analysis
+  print("Missing data analysis...")
+  print(sapply(data, function(x) sum(is.na(x)) / length(x)))
+
+  # Sample size check
+  print("Sample size check...")
+  print(dim(data))
+}
 
 
 process_data_for_year <- function(data, year) {
@@ -94,7 +147,13 @@ process_data_for_year <- function(data, year) {
 
   # Check for missing data handling
   completed_data <- completeObs(ppca_result)
-  View(completed_data)
+  print(summary(completed_data))
+
+  # Basic summary of missing data
+  print(sum(is.na(completed_data)))  # Total number of missing values
+  print(sapply(completed_data, function(x) sum(is.na(x))/length(x)))  # Proportion of missing data per variable
+
+  check_assumptions(completed_data)
 }
 
 
