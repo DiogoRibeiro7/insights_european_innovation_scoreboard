@@ -3,7 +3,7 @@ library(openxlsx)
 library(tidyr)
 library(dplyr)
 library(stringr)
-
+library(rTensor)
 
 # Import the full dataset
 dados <- read_excel("EIS_Data.xlsx")
