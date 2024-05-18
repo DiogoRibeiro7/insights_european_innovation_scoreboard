@@ -81,6 +81,44 @@ columns_to_remove <- c("Country", "CountryName", "Perf", "Level", "Zone")
 columns_to_keep <- setdiff(names(dados), columns_to_remove)
 dados <- dados[, columns_to_keep, drop = FALSE]
 
+# Write the dataframe to a CSV file with different separator and include row names
+write.csv(dados, "output_without_nans.csv", row.names = TRUE, sep = ";")
+
+#
+# descriptive statistics
+#
+
+# View the structure of the dataset
+str(dados)
+
+# Get summary statistics
+summary(dados)
+
+# View the first few rows
+head(dados)
+
+# View the last few rows
+tail(dados)
+
+# Get the dimensions of the dataset
+dim(dados)
+
+# Get the column names
+names(dados)
+
+
+# Exclude the column 'Name' from normalization
+cols_to_normalize <- setdiff(names(dados), "Year")
+
+# Function to normalize a vector
+normalize <- function(x) {
+  return((x - min(x)) / (max(x) - min(x)))
+}
+
+# Apply the normalization to the specified columns
+dados[cols_to_normalize] <- lapply(dados[cols_to_normalize], normalize)
+
+
 # Checking variance of each column
 variances <- sapply(dados, var, na.rm = TRUE)
 print(variances)

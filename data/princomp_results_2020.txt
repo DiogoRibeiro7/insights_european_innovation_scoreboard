@@ -19,7 +19,7 @@ Cumulative Proportion  0.98459802 0.98872458 0.99201115 0.99464282 0.99648135
 Standard deviation     0.19299662 0.175067063 0.142637768 0.12727418 0.078091957
 Proportion of Variance 0.00116399 0.000957765 0.000635798 0.00050621 0.000190574
 Cumulative Proportion  0.99764534 0.998603108 0.999238906 0.99974512 0.999935689
-                           Comp.28     Comp.29     Comp.30 Comp.31 Comp.32
-Standard deviation     4.41801e-02 1.02991e-02 1.76125e-08       0       0
-Proportion of Variance 6.09963e-05 3.31471e-06 9.69371e-18       0       0
-Cumulative Proportion  9.99997e-01 1.00000e+00 1.00000e+00       1       1
+                           Comp.28     Comp.29     Comp.30     Comp.31 Comp.32
+Standard deviation     4.41801e-02 1.02991e-02 1.41114e-08 6.77420e-09       0
+Proportion of Variance 6.09963e-05 3.31471e-06 6.22287e-18 1.43406e-18       0
+Cumulative Proportion  9.99997e-01 1.00000e+00 1.00000e+00 1.00000e+00       1

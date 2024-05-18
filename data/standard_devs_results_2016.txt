@@ -1,64 +1,64 @@
                                     New doctorate graduates 
-                                                    42.4775 
+                                                   0.265205 
                          Population with tertiary education 
-                                                    57.3627 
+                                                   0.252759 
                    Population involved in lifelong learning 
-                                                    80.3497 
+                                                   0.279077 
                    International scientific co-publications 
-                                                    81.0925 
+                                                   0.217379 
        Scientific publications among the top 10% most cited 
-                                                    43.4272 
+                                                   0.304146 
 Foreign doctorate students as a % of all doctorate students 
-                                                    91.7235 
+                                                   0.250951 
                                       Broadband penetration 
-                                                    44.6979 
+                                                   0.234925 
         Individuals with above basic overall digital skills 
-                                                    45.1414 
+                                                   0.251407 
                        R&D expenditure in the public sector 
-                                                    36.2368 
+                                                   0.252435 
                                Venture capital expenditures 
-                                                    37.7489 
+                                                   0.188907 
      Direct and indirect government support of business R&D 
-                                                    71.1194 
+                                                   0.338953 
                      R&D expenditure in the business sector 
-                                                    51.4232 
+                                                   0.310930 
                             Non-R&D innovation expenditures 
-                                                    32.7924 
+                                                   0.190481 
                 Innovation expenditures per person employed 
-                                                    42.3573 
+                                                   0.255486 
                          Enterprises providing ICT training 
-                                                    56.5338 
+                                                   0.271432 
                                    Employed ICT specialists 
-                                                    44.7398 
+                                                   0.259491 
                        SMEs introducing product innovations 
-                                                    48.8603 
+                                                   0.215524 
               SMEs introducing business process innovations 
-                                                    58.5998 
+                                                   0.242749 
                   Innovative SMEs collaborating with others 
-                                                    71.5620 
+                                                   0.231561 
                              Public-private co-publications 
-                                                   141.2140 
+                                                   0.242683 
                                 Job-to-job mobility of HRST 
-                                                    67.2991 
+                                                   0.238351 
                                     PCT patent applications 
-                                                    38.4007 
+                                                   0.308014 
                                      Trademark applications 
-                                                    48.6015 
+                                                   0.241369 
                                         Design applications 
-                                                    54.7474 
+                                                   0.317341 
                Employment in knowledge-intensive activities 
-                                                    44.4139 
+                                                   0.240938 
                        Employment in innovative enterprises 
-                                                    49.9518 
+                                                   0.254277 
              Exports of medium and high technology products 
-                                                    27.8186 
+                                                   0.232440 
                        Knowledge-intensive services exports 
-                                                    36.9411 
+                                                   0.264786 
          Sales of new-to-market and new-to-firm innovations 
-                                                    36.2453 
+                                                   0.203511 
                                       Resource productivity 
-                                                    55.6331 
+                                                   0.229854 
                          Air emissions by fine particulates 
-                                                    38.6065 
+                                                   0.280135 
                            Environment-related technologies 
-                                                    30.0366 
+                                                   0.185146 
