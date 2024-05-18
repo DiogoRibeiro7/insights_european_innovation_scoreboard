@@ -427,6 +427,9 @@ final_dataframe <- bind_rows(data_frames, .id = "Year") %>%
 # Print or inspect the final dataframe
 print(final_dataframe)
 
+# Write the dataframe to a CSV file
+write.csv(final_dataframe, "final_dataframe.csv", row.names = FALSE)
+
 # Convert the combined DataFrame to a LaTeX table
 latex_table <- kable(final_dataframe, format = "latex", booktabs = TRUE)
 
