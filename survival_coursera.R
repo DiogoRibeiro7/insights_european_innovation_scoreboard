@@ -98,3 +98,71 @@ temp <- cox.zph(fit)# apply the cox.zph function to the desired model
 print(temp) # display the results
 
 plot(temp) # plot the curves
+
+fit <- coxph(Surv(fu_time, death) ~ copd) # fit the desired model
+
+temp <- cox.zph(fit)# apply the cox.zph function to the desired model
+
+print(temp) # display the results
+
+plot(temp) # plot the curves
+
+
+fit <- coxph(Surv(fu_time, death) ~ gender + tt(gender)) # "tt" is the time-transform function 
+summary(fit) 
+
+
+# make the other covariates 
+
+ihd <- factor(data[,'ihd']) 
+
+valvular <- factor(data[,'valvular_disease']) 
+
+pvd <- factor(data[,'pvd']) 
+
+stroke <- factor(data[,'stroke']) 
+
+copd<- factor(data[,'copd'])
+
+pneumonia <- factor(data[,'pneumonia']) 
+
+ht <- factor(data[,'hypertension'])
+
+renal <- factor(data[,'renal_disease']) 
+
+ca <- factor(data[,'cancer']) 
+
+mets <- factor(data[,'metastatic_cancer']) 
+
+mental_health <- factor(data[,'mental_health']) 
+
+los <- data[,'los']
+
+prior_dna <- data[,'prior_dnas']
+
+# generate cognitive impairment variable (senility and dementia combined)
+
+cog_imp <- as.factor(ifelse(data$dementia == 1 | data$senile == 1, 1, 0))
+
+# run the full model 
+cox <- coxph(Surv(fu_time, death) ~ age + gender + ethnicgroup + ihd + 
+               
+               valvular + pvd + stroke + copd + pneumonia + ht + renal + 
+               
+               ca + mets + mental_health + cog_imp + los + prior_dna) 
+
+summary(cox) 
+
+
+cox <- coxph(Surv(fu_time, death) ~ age + gender + valvular + pneumonia + mets + cog_imp) 
+
+summary(cox) 
+
+
+fit <- coxph(Surv(fu_time, death) ~ age + gender + valvular + pneumonia + 
+               
+               mets + cog_imp) # test them all in the same model 
+
+temp <- cox.zph(fit)  
+
+print(temp) 
