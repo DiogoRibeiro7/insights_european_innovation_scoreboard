@@ -1,16 +1,16 @@
 Kaiser-Meyer-Olkin factor adequacy
 Call: KMO(r = mydata)
-Overall MSA =  0.83
+Overall MSA =  0.82
 MSA for each item = 
                 Human resources     Attractive research systems 
-                           0.91                            0.86 
-                 Digitalisation             Finance and support 
-                           0.86                            0.87 
-               Firm investments Use of information technologies 
-                           0.75                            0.93 
+                           0.91                            0.85 
+                 Digitalisation Use of information technologies 
+                           0.85                            0.92 
                      Innovators                        Linkages 
-                           0.76                            0.91 
+                           0.75                            0.90 
             Intellectual assets              Employment impacts 
-                           0.73                            0.82 
+                           0.71                            0.81 
                   Sales impacts    Environmental sustainability 
-                           0.67                            0.83 
+                           0.67                            0.80 
+            Finance and support                Firm investments 
+                           0.82                            0.71 

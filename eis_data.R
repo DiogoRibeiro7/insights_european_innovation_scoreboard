@@ -61,7 +61,8 @@ write.xlsx(dados, "EIS_Data_Stratified.xlsx")
 
 
 dados <- dados[dados$DigitCount == 2, ]
-
+View(dados)
+dados <- subset(dados,  Value != 0)
 # Use pivot_wider to reshape the data
 wide_data <- dados %>%
   pivot_wider(
@@ -72,6 +73,7 @@ wide_data <- dados %>%
 
 # Filter DataFrame
 wide_data <- subset(wide_data, Zone == "EU")
+
 
 View(wide_data)
 

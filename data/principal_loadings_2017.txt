@@ -1,31 +1,31 @@
 
 Loadings:
                                 Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7
-Human resources                  0.317  0.283         0.108  0.223  0.130  0.297
-Attractive research systems      0.347               -0.139               -0.224
-Digitalisation                   0.283  0.276  0.398 -0.223  0.290 -0.148  0.402
-Finance and support              0.274         0.374  0.385  0.203 -0.194 -0.649
-Firm investments                 0.238 -0.261         0.698 -0.359 -0.182  0.359
-Use of information technologies  0.327  0.120 -0.149  0.104         0.303  0.242
-Innovators                       0.289        -0.560 -0.126        -0.427 -0.147
-Linkages                         0.329  0.194                             -0.123
-Intellectual assets              0.265         0.197 -0.236 -0.694  0.434 -0.159
-Employment impacts               0.323        -0.416 -0.257                     
-Sales impacts                    0.211 -0.652                0.432  0.484       
-Environmental sustainability     0.224 -0.539  0.375 -0.356 -0.129 -0.421  0.158
+Human resources                  0.319  0.296         0.134  0.117  0.194  0.323
+Attractive research systems      0.355               -0.122               -0.240
+Digitalisation                   0.293  0.299  0.218 -0.271  0.314         0.443
+Use of information technologies  0.328  0.120         0.166 -0.114  0.327  0.236
+Innovators                       0.284        -0.562  0.159        -0.401 -0.164
+Linkages                         0.331  0.195               -0.102        -0.160
+Intellectual assets              0.256         0.106 -0.452 -0.711  0.150 -0.216
+Employment impacts               0.323        -0.490                            
+Sales impacts                    0.217 -0.621                0.236  0.620       
+Environmental sustainability     0.225 -0.521  0.159 -0.492  0.129 -0.404  0.226
+Finance and support              0.265         0.520  0.178  0.325 -0.125 -0.592
+Firm investments                 0.225 -0.321  0.267  0.591 -0.412 -0.301  0.285
                                 Comp.8 Comp.9 Comp.10 Comp.11 Comp.12
-Human resources                  0.136  0.722  0.304           0.120 
-Attractive research systems     -0.149        -0.286   0.824  -0.106 
-Digitalisation                   0.231 -0.300 -0.427  -0.195         
-Finance and support              0.253         0.206  -0.133         
-Firm investments                 0.106        -0.255                 
-Use of information technologies -0.125 -0.592  0.568                 
-Innovators                       0.142                         0.598 
-Linkages                        -0.794  0.109 -0.200  -0.378         
-Intellectual assets              0.277                -0.146   0.186 
-Employment impacts               0.220                -0.220  -0.737 
-Sales impacts                                 -0.211  -0.168   0.149 
-Environmental sustainability    -0.195         0.355                 
+Human resources                  0.143  0.677  0.375           0.112 
+Attractive research systems                   -0.171   0.866         
+Digitalisation                   0.234 -0.263 -0.505  -0.133         
+Use of information technologies -0.182 -0.640  0.475                 
+Innovators                       0.149                         0.588 
+Linkages                        -0.773  0.171 -0.278  -0.317         
+Intellectual assets              0.288                -0.175   0.166 
+Employment impacts               0.213                -0.166  -0.751 
+Sales impacts                                 -0.246  -0.143   0.164 
+Environmental sustainability    -0.239         0.346                 
+Finance and support              0.237 -0.120  0.212  -0.175         
+Firm investments                 0.142        -0.209   0.119         
 
                Comp.1 Comp.2 Comp.3 Comp.4 Comp.5 Comp.6 Comp.7 Comp.8 Comp.9
 SS loadings     1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000  1.000

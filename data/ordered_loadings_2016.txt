@@ -1,13 +1,13 @@
                                   Comp.1
-Attractive research systems     0.342662
-Linkages                        0.326975
-Employment impacts              0.326174
-Use of information technologies 0.321619
-Human resources                 0.313645
-Innovators                      0.296171
-Digitalisation                  0.278388
-Finance and support             0.275771
-Intellectual assets             0.259611
-Firm investments                0.250411
-Environmental sustainability    0.222931
-Sales impacts                   0.215406
+Attractive research systems     0.351719
+Linkages                        0.329913
+Employment impacts              0.327617
+Use of information technologies 0.322314
+Human resources                 0.317062
+Innovators                      0.292902
+Digitalisation                  0.288392
+Finance and support             0.267209
+Intellectual assets             0.249094
+Firm investments                0.239719
+Sales impacts                   0.222466
+Environmental sustainability    0.215263

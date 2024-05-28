@@ -2,5 +2,5 @@
 	Bartlett test of homogeneity of variances
 
 data:  mydata
-Bartlett's K-squared = 11.26, df = 11, p-value = 0.422
+Bartlett's K-squared = 11.68, df = 11, p-value = 0.388
 

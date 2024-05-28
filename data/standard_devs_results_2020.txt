@@ -1,12 +1,12 @@
                 Human resources     Attractive research systems 
-                       0.252527                        0.250814 
-                 Digitalisation             Finance and support 
-                       0.259707                        0.217916 
-               Firm investments Use of information technologies 
-                       0.231436                        0.237956 
+                       0.238900                        0.246873 
+                 Digitalisation Use of information technologies 
+                       0.261864                        0.226931 
                      Innovators                        Linkages 
-                       0.241323                        0.234888 
+                       0.233799                        0.223184 
             Intellectual assets              Employment impacts 
-                       0.272399                        0.250379 
+                       0.270803                        0.230412 
                   Sales impacts    Environmental sustainability 
-                       0.185903                        0.241734 
+                       0.187344                        0.234320 
+            Finance and support                Firm investments 
+                       0.217047                        0.217022 

@@ -4,13 +4,13 @@ Overall MSA =  0.82
 MSA for each item = 
                 Human resources     Attractive research systems 
                            0.92                            0.90 
-                 Digitalisation             Finance and support 
-                           0.80                            0.75 
-               Firm investments Use of information technologies 
-                           0.81                            0.89 
+                 Digitalisation Use of information technologies 
+                           0.80                            0.89 
                      Innovators                        Linkages 
                            0.70                            0.94 
             Intellectual assets              Employment impacts 
                            0.86                            0.78 
                   Sales impacts    Environmental sustainability 
                            0.68                            0.67 
+            Finance and support                Firm investments 
+                           0.75                            0.81 

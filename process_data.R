@@ -106,7 +106,7 @@ dim(dados)
 # Get the column names
 names(dados)
 
-
+View(dados)
 # Exclude the column 'Name' from normalization
 cols_to_normalize <- setdiff(names(dados), "Year")
 
@@ -479,3 +479,4 @@ output_file <- "latex_table_output.txt"
 
 # Write the LaTeX table to the text file
 writeLines(latex_table, con = output_file)
+

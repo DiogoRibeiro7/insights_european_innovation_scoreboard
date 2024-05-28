@@ -1,20 +1,20 @@
 
 Loadings:
                                 PC1  
-Human resources                 0.871
-Attractive research systems     0.950
-Digitalisation                  0.787
-Finance and support             0.846
-Firm investments                0.640
-Use of information technologies 0.880
-Innovators                      0.794
-Linkages                        0.895
-Intellectual assets             0.747
-Employment impacts              0.896
-Sales impacts                   0.540
-Environmental sustainability    0.658
+Human resources                 0.856
+Attractive research systems     0.951
+Digitalisation                  0.798
+Use of information technologies 0.863
+Innovators                      0.764
+Linkages                        0.881
+Intellectual assets             0.713
+Employment impacts              0.880
+Sales impacts                   0.549
+Environmental sustainability    0.618
+Finance and support             0.828
+Firm investments                0.592
 
                  PC1
-SS loadings    7.696
-Proportion Var 0.641
+SS loadings    7.381
+Proportion Var 0.615
 [1] 4

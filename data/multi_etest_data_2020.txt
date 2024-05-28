@@ -1,6 +1,6 @@
 
 	Energy test of multivariate normality: estimated parameters
 
-data:  x, sample size 56, dimension 12, replicates 100
-E-statistic = 3.574, p-value <2e-16
+data:  x, sample size 54, dimension 12, replicates 100
+E-statistic = 3.552, p-value <2e-16
 

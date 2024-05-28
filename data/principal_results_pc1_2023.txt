@@ -4,8 +4,6 @@ Loadings:
 Human resources                 0.891
 Attractive research systems     0.900
 Digitalisation                  0.688
-Finance and support             0.687
-Firm investments                0.724
 Use of information technologies 0.877
 Innovators                      0.706
 Linkages                        0.876
@@ -13,6 +11,8 @@ Intellectual assets             0.702
 Employment impacts              0.866
 Sales impacts                   0.677
 Environmental sustainability    0.605
+Finance and support             0.687
+Firm investments                0.724
 
                  PC1
 SS loadings    7.176
