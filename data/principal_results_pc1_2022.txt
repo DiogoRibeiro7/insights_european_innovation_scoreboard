@@ -1,40 +1,20 @@
 
 Loadings:
-                                                            PC1   
-New doctorate graduates                                      0.827
-Population with tertiary education                           0.583
-Population involved in lifelong learning                     0.827
-International scientific co-publications                     0.874
-Scientific publications among the top 10% most cited         0.904
-Foreign doctorate students as a % of all doctorate students  0.770
-Broadband penetration                                        0.514
-Individuals with above basic overall digital skills          0.753
-R&D expenditure in the public sector                         0.701
-Venture capital expenditures                                 0.697
-Direct and indirect government support of business R&D       0.384
-R&D expenditure in the business sector                       0.723
-Non-R&D innovation expenditures                                   
-Innovation expenditures per person employed                  0.756
-Enterprises providing ICT training                           0.764
-Employed ICT specialists                                     0.837
-SMEs introducing product innovations                         0.549
-SMEs introducing business process innovations                0.672
-Innovative SMEs collaborating with others                    0.682
-Public-private co-publications                               0.876
-Job-to-job mobility of HRST                                  0.573
-PCT patent applications                                      0.843
-Trademark applications                                       0.330
-Design applications                                          0.486
-Employment in knowledge-intensive activities                 0.764
-Employment in innovative enterprises                         0.640
-Exports of medium and high technology products                    
-Knowledge-intensive services exports                         0.681
-Sales of new-to-market and new-to-firm innovations                
-Resource productivity                                        0.433
-Air emissions by fine particulates                           0.522
-Environment-related technologies                             0.177
+                                PC1  
+Human resources                 0.879
+Attractive research systems     0.904
+Digitalisation                  0.688
+Finance and support             0.774
+Firm investments                0.798
+Use of information technologies 0.840
+Innovators                      0.705
+Linkages                        0.895
+Intellectual assets             0.787
+Employment impacts              0.888
+Sales impacts                   0.580
+Environmental sustainability    0.577
 
-                  PC1
-SS loadings    13.546
-Proportion Var  0.423
+                 PC1
+SS loadings    7.379
+Proportion Var 0.615
 [1] 4

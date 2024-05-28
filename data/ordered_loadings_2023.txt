@@ -1,33 +1,13 @@
-                                                                Comp.1
-Scientific publications among the top 10% most cited         0.2381467
-Public-private co-publications                               0.2380833
-PCT patent applications                                      0.2365935
-International scientific co-publications                     0.2354839
-New doctorate graduates                                      0.2267519
-Employed ICT specialists                                     0.2202173
-Enterprises providing ICT training                           0.2131249
-Population involved in lifelong learning                     0.2117686
-Employment in knowledge-intensive activities                 0.2089620
-Individuals with above basic overall digital skills          0.2071813
-Foreign doctorate students as a % of all doctorate students  0.2041496
-Innovative SMEs collaborating with others                    0.2032635
-Knowledge-intensive services exports                         0.1984226
-R&D expenditure in the business sector                       0.1964011
-Innovation expenditures per person employed                  0.1960583
-SMEs introducing business process innovations                0.1921597
-Venture capital expenditures                                 0.1846269
-R&D expenditure in the public sector                         0.1843763
-Employment in innovative enterprises                         0.1692597
-Population with tertiary education                           0.1651895
-SMEs introducing product innovations                         0.1580950
-Air emissions by fine particulates                           0.1468908
-Environment-related technologies                             0.1275785
-Job-to-job mobility of HRST                                  0.1261830
-Broadband penetration                                        0.1255963
-Resource productivity                                        0.1161838
-Direct and indirect government support of business R&D       0.1100121
-Design applications                                          0.0811668
-Sales of new-to-market and new-to-firm innovations           0.0786113
-Trademark applications                                       0.0609712
-Exports of medium and high technology products               0.0331786
-Non-R&D innovation expenditures                             -0.0187699
+                                  Comp.1
+Attractive research systems     0.335834
+Human resources                 0.332673
+Use of information technologies 0.327222
+Linkages                        0.327100
+Employment impacts              0.323253
+Firm investments                0.270447
+Innovators                      0.263650
+Intellectual assets             0.262033
+Digitalisation                  0.256843
+Finance and support             0.256487
+Sales impacts                   0.252660
+Environmental sustainability    0.226004

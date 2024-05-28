@@ -1,68 +1,16 @@
 Kaiser-Meyer-Olkin factor adequacy
 Call: KMO(r = mydata)
-Overall MSA =  0.5
+Overall MSA =  0.78
 MSA for each item = 
-                                    New doctorate graduates 
-                                                        0.5 
-                         Population with tertiary education 
-                                                        0.5 
-                   Population involved in lifelong learning 
-                                                        0.5 
-                   International scientific co-publications 
-                                                        0.5 
-       Scientific publications among the top 10% most cited 
-                                                        0.5 
-Foreign doctorate students as a % of all doctorate students 
-                                                        0.5 
-                                      Broadband penetration 
-                                                        0.5 
-        Individuals with above basic overall digital skills 
-                                                        0.5 
-                       R&D expenditure in the public sector 
-                                                        0.5 
-                               Venture capital expenditures 
-                                                        0.5 
-     Direct and indirect government support of business R&D 
-                                                        0.5 
-                     R&D expenditure in the business sector 
-                                                        0.5 
-                            Non-R&D innovation expenditures 
-                                                        0.5 
-                Innovation expenditures per person employed 
-                                                        0.5 
-                         Enterprises providing ICT training 
-                                                        0.5 
-                                   Employed ICT specialists 
-                                                        0.5 
-                       SMEs introducing product innovations 
-                                                        0.5 
-              SMEs introducing business process innovations 
-                                                        0.5 
-                  Innovative SMEs collaborating with others 
-                                                        0.5 
-                             Public-private co-publications 
-                                                        0.5 
-                                Job-to-job mobility of HRST 
-                                                        0.5 
-                                    PCT patent applications 
-                                                        0.5 
-                                     Trademark applications 
-                                                        0.5 
-                                        Design applications 
-                                                        0.5 
-               Employment in knowledge-intensive activities 
-                                                        0.5 
-                       Employment in innovative enterprises 
-                                                        0.5 
-             Exports of medium and high technology products 
-                                                        0.5 
-                       Knowledge-intensive services exports 
-                                                        0.5 
-         Sales of new-to-market and new-to-firm innovations 
-                                                        0.5 
-                                      Resource productivity 
-                                                        0.5 
-                         Air emissions by fine particulates 
-                                                        0.5 
-                           Environment-related technologies 
-                                                        0.5 
+                Human resources     Attractive research systems 
+                           0.91                            0.87 
+                 Digitalisation             Finance and support 
+                           0.71                            0.75 
+               Firm investments Use of information technologies 
+                           0.87                            0.85 
+                     Innovators                        Linkages 
+                           0.74                            0.90 
+            Intellectual assets              Employment impacts 
+                           0.71                            0.84 
+                  Sales impacts    Environmental sustainability 
+                           0.53                            0.56 

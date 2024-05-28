@@ -1,64 +1,12 @@
-                                    New doctorate graduates 
-                                                   0.255642 
-                         Population with tertiary education 
-                                                   0.252759 
-                   Population involved in lifelong learning 
-                                                   0.279077 
-                   International scientific co-publications 
-                                                   0.261192 
-       Scientific publications among the top 10% most cited 
-                                                   0.270728 
-Foreign doctorate students as a % of all doctorate students 
-                                                   0.238125 
-                                      Broadband penetration 
-                                                   0.234925 
-        Individuals with above basic overall digital skills 
-                                                   0.251407 
-                       R&D expenditure in the public sector 
-                                                   0.277248 
-                               Venture capital expenditures 
-                                                   0.230688 
-     Direct and indirect government support of business R&D 
-                                                   0.287978 
-                     R&D expenditure in the business sector 
-                                                   0.297357 
-                            Non-R&D innovation expenditures 
-                                                   0.203580 
-                Innovation expenditures per person employed 
-                                                   0.286700 
-                         Enterprises providing ICT training 
-                                                   0.252536 
-                                   Employed ICT specialists 
-                                                   0.259491 
-                       SMEs introducing product innovations 
-                                                   0.247509 
-              SMEs introducing business process innovations 
-                                                   0.259043 
-                  Innovative SMEs collaborating with others 
-                                                   0.257066 
-                             Public-private co-publications 
-                                                   0.270286 
-                                Job-to-job mobility of HRST 
-                                                   0.233771 
-                                    PCT patent applications 
-                                                   0.299521 
-                                     Trademark applications 
-                                                   0.237590 
-                                        Design applications 
-                                                   0.262916 
-               Employment in knowledge-intensive activities 
-                                                   0.240938 
-                       Employment in innovative enterprises 
-                                                   0.266671 
-             Exports of medium and high technology products 
-                                                   0.227448 
-                       Knowledge-intensive services exports 
-                                                   0.251111 
-         Sales of new-to-market and new-to-firm innovations 
-                                                   0.199859 
-                                      Resource productivity 
-                                                   0.257696 
-                         Air emissions by fine particulates 
-                                                   0.288038 
-                           Environment-related technologies 
-                                                   0.238461 
+                Human resources     Attractive research systems 
+                       0.252527                        0.250814 
+                 Digitalisation             Finance and support 
+                       0.259707                        0.217916 
+               Firm investments Use of information technologies 
+                       0.231436                        0.237956 
+                     Innovators                        Linkages 
+                       0.241323                        0.234888 
+            Intellectual assets              Employment impacts 
+                       0.272399                        0.250379 
+                  Sales impacts    Environmental sustainability 
+                       0.185903                        0.241734 

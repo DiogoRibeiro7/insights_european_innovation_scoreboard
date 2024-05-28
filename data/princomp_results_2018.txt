@@ -1,29 +1,13 @@
 Importance of components:
                          Comp.1   Comp.2    Comp.3   Comp.4    Comp.5    Comp.6
-Standard deviation     3.811948 1.940246 1.6287545 1.571781 1.1766329 1.0880653
-Proportion of Variance 0.454092 0.117642 0.0829013 0.077203 0.0432645 0.0369964
-Cumulative Proportion  0.454092 0.571734 0.6546358 0.731839 0.7751033 0.8120997
-                          Comp.7    Comp.8   Comp.9   Comp.10   Comp.11
-Standard deviation     0.9390562 0.8820738 0.823378 0.8078734 0.7307966
-Proportion of Variance 0.0275571 0.0243142 0.021186 0.0203956 0.0166895
-Cumulative Proportion  0.8396568 0.8639710 0.885157 0.9055525 0.9222420
-                         Comp.12   Comp.13    Comp.14   Comp.15    Comp.16
-Standard deviation     0.6990294 0.6739852 0.55715480 0.5048278 0.46489027
-Proportion of Variance 0.0152701 0.0141955 0.00970067 0.0079641 0.00675384
-Cumulative Proportion  0.9375121 0.9517076 0.96140827 0.9693724 0.97612620
-                          Comp.17    Comp.18    Comp.19   Comp.20   Comp.21
-Standard deviation     0.44514992 0.40073618 0.34908941 0.3059461 0.2413894
-Proportion of Variance 0.00619245 0.00501842 0.00380823 0.0029251 0.0018209
-Cumulative Proportion  0.98231866 0.98733708 0.99114531 0.9940704 0.9958913
-                          Comp.22    Comp.23     Comp.24     Comp.25    Comp.26
-Standard deviation     0.20295326 0.17917043 0.148958954 0.116447722 0.10503784
-Proportion of Variance 0.00128719 0.00100319 0.000693399 0.000423752 0.00034478
-Cumulative Proportion  0.99717849 0.99818168 0.998875081 0.999298833 0.99964361
-                           Comp.27     Comp.28     Comp.29     Comp.30 Comp.31
-Standard deviation     0.078216915 0.057856838 4.40350e-02 6.95348e-09       0
-Proportion of Variance 0.000191184 0.000104607 6.05963e-05 1.51096e-18       0
-Cumulative Proportion  0.999834797 0.999939404 1.00000e+00 1.00000e+00       1
-                       Comp.32
-Standard deviation           0
-Proportion of Variance       0
-Cumulative Proportion        1
+Standard deviation     2.774105 1.026859 0.8773808 0.817014 0.7462766 0.6788033
+Proportion of Variance 0.641305 0.087870 0.0641498 0.055626 0.0464107 0.0383978
+Cumulative Proportion  0.641305 0.729175 0.7933249 0.848951 0.8953616 0.9337594
+                          Comp.7    Comp.8    Comp.9   Comp.10    Comp.11
+Standard deviation     0.5079680 0.4470517 0.3863309 0.3082116 0.24880021
+Proportion of Variance 0.0215026 0.0166546 0.0124376 0.0079162 0.00515846
+Cumulative Proportion  0.9552620 0.9719166 0.9843543 0.9922704 0.99742891
+                          Comp.12
+Standard deviation     0.17565043
+Proportion of Variance 0.00257109
+Cumulative Proportion  1.00000000

@@ -34,6 +34,7 @@ wide_data <- dados %>%
 
 View(wide_data)
 
+
 # Optional: Write the combined data to a new Excel file
 write.xlsx(wide_data, "EIS_Data_transformed.xlsx")
 
@@ -69,7 +70,8 @@ wide_data <- dados %>%
     id_cols = c(Year, Country, CountryName, Perf, Level, Zone)  # Identify rows by 'Country' and 'Year'
   )
 
-
+# Filter DataFrame
+wide_data <- subset(wide_data, Zone == "EU")
 
 View(wide_data)
 
