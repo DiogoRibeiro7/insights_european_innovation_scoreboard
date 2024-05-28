@@ -59,7 +59,7 @@ View(dados)
 write.xlsx(dados, "EIS_Data_Stratified.xlsx")
 
 
-dados <- dados[dados$DigitCount == 3, ]
+dados <- dados[dados$DigitCount == 2, ]
 
 # Use pivot_wider to reshape the data
 wide_data <- dados %>%
