@@ -73,7 +73,8 @@ wide_data <- dados %>%
 
 # Filter DataFrame
 wide_data <- subset(wide_data, Zone == "EU")
-
+wide_data <- wide_data[wide_data$Level == 0, ]
+wide_data <- wide_data[wide_data$CountryName != "EU", ]
 
 View(wide_data)
 
